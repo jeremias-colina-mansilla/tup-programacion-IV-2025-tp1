@@ -1,0 +1,19 @@
+@url = http://localhost:3000
+
+### Consultar todas las tareas
+GET {{url}}/tareas
+
+### Consultar solo tareas completadas
+GET {{url}}/tareas?completada=true
+
+### Consultar solo tareas pendientes
+GET {{url}}/tareas?completada=false
+
+### Crear tarea: Estudiar programación
+POST {{url}}/tareas
+Content-Type: application/json
+
+{
+  "nombre": "enviar tp1 programacion IV",
+  "completada":true
+}
