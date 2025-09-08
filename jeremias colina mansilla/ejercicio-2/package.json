@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "jeremias colina mansilla",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
