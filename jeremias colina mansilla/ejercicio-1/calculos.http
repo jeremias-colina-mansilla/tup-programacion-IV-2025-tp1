@@ -1,0 +1,19 @@
+@url=http://localhost:3000
+
+###Get de calculos
+
+GET {{url}}/calculos
+
+###Agregar valores
+
+POST {{url}}/calcular
+Content-Type: application/json
+
+{
+    "ancho": 20,
+    "alto": 20
+}
+
+### Mostrar si es triangulo o cuadrado
+GET {{url}}/calculos
+
